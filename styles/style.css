@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+}
+
+body {
+    box-sizing: border-box;
+    width: 99vw;
+    font-family: "Merriweather", "Roboto", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgba(225, 207, 236, 0.534);
+}
+
+nav, header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+header {
+    box-sizing: border-box;
+    padding: 20px 100px;
+    justify-content: space-between;
+}
+
+main {
+    box-sizing: border-box;
+    padding: 0 100px;
+}
+
+nav a {
+    text-decoration: none;
+    display: block;
+    font-size: 20px;
+    margin: 0 25px;
+    color: black;
+}
+
+footer {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(225, 207, 236);
+    height: 30vh;
+    font-size: 20px;
+}
