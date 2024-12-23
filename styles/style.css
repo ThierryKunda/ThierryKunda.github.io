@@ -45,3 +45,9 @@ footer {
     height: 30vh;
     font-size: 20px;
 }
+
+strong {
+    background-color: black;
+    color: rgb(225, 207, 236);
+    padding: 0 5px;
+}
