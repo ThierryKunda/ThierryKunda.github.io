@@ -20,11 +20,35 @@ section {
     margin: 100px 0;
 }
 
+article {
+    box-sizing: border-box;
+    border-left: 5px solid rgb(123, 53, 167);
+    background-color: rgb(225, 207, 236);
+    box-shadow: 4px 4px 5px 0px black;
+    margin: 20px 0;
+    padding: 20px 30px;
+    transition: all .2s;
+}
+
+article:hover {
+    border-left: 8px solid rgb(123, 53, 167);
+
+}
+
+article > p {
+    font-size: 14px;
+}
+
+li {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
 .content {
     margin: 60px 0;
 }
 
-.content p {
+p {
     margin: 20px 0;
     font-size: 18px;
 }
