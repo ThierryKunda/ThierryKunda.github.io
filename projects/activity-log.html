@@ -231,11 +231,49 @@
                 </p>
                 </p>
                 <h3>Project structure and code organization — I love spaghettis! Not so much in my code...</h3>
-                <p>This point is kinda tough. How will I start on this...</p>
+                <p>This topic is kinda tough to broach. How will I start on this?...</p>
+                <p>First truth: you cannot predict at an early stage how your code is going to be organized.
+                    Especially when the project life cycle is based on iterations like in the <strong>Agile</strong> approch.
+                    Do not complicate things on trying to predict elements that you <span class="quote">might</span> use
+                    later — like adding a class or a method not implemented yet but 'certainly' useful in the future. Your
+                    are not a fool, you know that the needs and requirements will change, and being flexible makes everything
+                    easier than what you think.
+                </p>
+                <p>In the other hand, not knowing the future design does not mean not knowing how
+                    to design a <span class="quote">good enough</span> codebase. Do not try reinviting the wheel and go learn
+                    design patterns and architecture rules that will help you produce clean code.
+                    Again, go by iteration:
+                    <ol>
+                        <li>Make sure the piece of code your are working on is comprehensible for external developers.</li>
+                        <li>If it's not the case, break it into smaller pieces with logical relations.</li>
+                        <li>Too much lines? Break it into different files. Do not overdo it ! Switching between files to understanding
+                            how things are related can be redundant and tiring.
+                        </li>
+                        <li>If you are not sure about the decomposition process you are applying, add docstring to your code or create any kind
+                            of documentation — e.g. create <strong>Confluence</strong> pages or sections, add neat details to the PR messages,...
+                            — to explain why you are doing all of this. It can be quite effective as you could catch yourself writing
+                            some gibberish and tell yourself <span class="quote">Well...I'm not even convinced myself...Why someone else
+                                would be at this point!?
+                            </span>
+
+                        </li>
+                        <li>If you really want to be sure at some point, just try building in your mind the same source code in a single file you
+                            wrote so far. If it looks horrendous, break it. Still looking ugly? Break it again...until
+                        you tell yourself: <span class="quote">What I have done until now is not that bad!</span></li>
+                    </ol>
+                </p>
+                <article>
+                    <p>Documentation is really important as it gives more contextual information on technical and business aspects of the project.
+                        Tools like <strong>Confluence</strong> are useless without collaborators contribution.
+                    </p>
+                    <p>
+                        Have you ever been in a situation
+                        where you do not have specific pieces of information that would help you unlock an issue? Searching through <strong>StackOverflow</strong> and
+                        <strong>Reddit</strong> hoping to hit a comment about an author who faced a similar problem and provides clues, but not finding anything relevant? Think
+                        about it next time and be the savior of your teammates!
+                    </p>
+                </article>
                 <h3>What about Git workflow? Testing?</h3>
-                <p>...</p>
-                <h3>What I learnt by building <span class="quote">AL</span></h3>
-                <p>...</p>
             </div>
         </section>
         <section>
