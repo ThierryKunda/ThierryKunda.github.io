@@ -274,6 +274,26 @@
                     </p>
                 </article>
                 <h3>What about Git workflow? Testing?</h3>
+                <p>TLDR: None of them were really used — at least not for the first version.</p>
+                <p>For single-developer team, there is no use to create a complete Git workflow, unless you want
+                    provide contextual information on features or simply group them into branches.
+                    For instance, it is common to create two branches, one for the releases called
+                    <span class="quote">main</span> or <span class="quote">master</span> — which is created by default when
+                    initializing a Git repository — and an other one called <span class="quote">dev</span> for ongoing
+                    modifications of the source code — e.g. new features, bug fixes, documentation, code refactoring, etc. 
+                </p>
+                <p>Those two branches are sufficient until I add another developer to the project. Adding more branches
+                    will turn really quick to something too <span class="quote">overkill</span>.
+                </p>
+                <p>Additonally, developers tends to forget that testing is really time-consuming and has to be efficient to add any
+                    value to the code. If not, it just adds complexity to the code.
+                    That is why I preferred not to add testing cases to a source code that does not so much work that cannot
+                    be checked manually.
+                </p>
+                <article>
+                    <p>You must assume that <strong>testing is really important</strong> and will be present inevitably.
+                    It saves you from ridiculous situations that could appear at any time.</p>
+                </article>
             </div>
         </section>
         <section>
