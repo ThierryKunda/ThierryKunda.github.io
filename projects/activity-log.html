@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/styles/style.css">
     <link rel="stylesheet" href="/styles/projects.css">
+    <script src="/scripts/script.js" defer></script>
     <title>Activity Log — Thierry Kunda's</title>
 </head>
 
@@ -297,12 +298,28 @@
             </div>
         </section>
         <section>
-            <h2>The (first) release</h2>
+            <h2>The first release</h2>
             <div class="content">
                 <h3>From <strong>cargo</strong> for the rustaceans</h3>
-                <p>...</p>
+                <p>For developers that already have <span class="quote">cargo</span> — the official package manager of Rust —, they
+                    can hit the following command:
+                </p>
+                <code title="Tap to copy to the clipboard">cargo install activitylog</code>
+                <p>More information are available <a href="https://crates.io/crates/activitylog">here</a>. </p>
                 <h3>Directly as binaries for the OGs</h3>
-                <p>...</p>
+                <p>You can download the executable based on one of the specified platforms for version v0.1.0:
+                    <div class="downloads">
+                        <a href="/softwares/al-windows.exe" download="activitylog-win.exe">Download for Windows</a>
+                        <a href="/softwares/al-linux-x86_64.exe" download="activitylog-linux_x86_64.exe">Download for Linux x86 — 64 bits</a>
+                        <a href="/softwares/al-linux-arm_64.exe" download="activitylog-linux_arm_64.exe">Download for Linux ARM — 64 bits</a>
+                        <a href="/softwares/al-linux-arm_32.exe" download="activitylog-linux_arm_32.exe">Download for Linux ARM — 32 bits</a>
+                    </div>
+                </p>
+                <p>
+                    NB : Unfortunately, there is no available version for MacOS executable distribution at the moment.
+                    MacOS user must have <span class="quote">Rust</span> and <span class="quote">cargo</span> on their machine
+                    to install the tool, using the <span class="quote">cargo install</span> command. I will be working on it in a future release.
+                </p>
             </div>
         </section>
     </main>
