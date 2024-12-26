@@ -1,6 +1,6 @@
 h1 {
     font-size: 40px;
-    margin: 50px 0;
+    margin: 20px 0;
 }
 
 h2 {
@@ -8,8 +8,14 @@ h2 {
     font-size: 30px;
 }
 
+.post-date {
+    font-size: 16px;
+    font-style: italic;
+}
+
 main {
-    margin: 0 18vw;
+    margin: 0px 18vw;
+    margin-top: 80px;
 }
 
 a {
@@ -17,7 +23,7 @@ a {
 }
 
 section {
-    margin: 100px 0;
+    margin: 80px 0;
 }
 
 article {
