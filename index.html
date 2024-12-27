@@ -1,3 +1,6 @@
+---
+---
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,19 +8,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="./styles/index.css">
-    <title>Thierry Kunda's</title>
+    <title>Thierry K.</title>
 </head>
-<body id="home">
-    <header>
-        <h1>Thierry Kunda's</h1>
-        <nav>
-            <a href="#">Home</a>
-            <a href="#">My work</a>
-            <a href="#">Products & Services</a>
-            <a href="#">Blog</a>
-            <a href="#">About me</a>
-        </nav>
-    </header>
+<body>
+    {% include header.html %}
     <main class="homepage-content">
         <section class="introduction">
             <h1>Who am I?</h1>
@@ -49,6 +43,6 @@
             </div>
         </section>
     </main>
-    <footer>&copy; Thierry Kunda</footer>
+    {% include footer.html %}
 </body>
 </html>
