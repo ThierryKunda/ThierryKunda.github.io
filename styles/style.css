@@ -69,6 +69,13 @@ strong {
     padding: 0 5px;
 }
 
+@media screen and (max-width: 1048px) {
+    header {
+        flex-direction: column;
+        min-height: 30vh;
+    }
+}
+
 @media screen and (max-width: 768px) {
     main {
         padding: 0 10vw;
@@ -87,10 +94,13 @@ strong {
     nav a {
         padding: 10px 0;
     }
-  }
 
-@media screen and (max-width: 480px) {
-    
+    #k {
+        position: relative;
+        display: inline-block;
+        /* left: -10px;
+        top: 50px; */
+    }
   }
 
 @media screen and (max-width: 375px) {
