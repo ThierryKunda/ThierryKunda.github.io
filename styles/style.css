@@ -21,8 +21,9 @@ h1.names a {
 }
 
 body {
+    display: flex;
+    flex-direction: column;
     box-sizing: border-box;
-    width: 99vw;
     font-family: "Merriweather", "Roboto", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: rgba(225, 207, 236, 0.534);
 }
@@ -66,4 +67,34 @@ strong {
     background-color: black;
     color: rgb(225, 207, 236);
     padding: 0 5px;
+}
+
+@media screen and (max-width: 768px) {
+    main {
+        padding: 0 10vw;
+    }
+
+    nav, header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    header {
+        min-height: 70vh;
+    }
+
+    nav a {
+        padding: 10px 0;
+    }
+  }
+
+@media screen and (max-width: 480px) {
+    
+  }
+
+@media screen and (max-width: 375px) {
+    p, li {
+        font-size: 12px;
+    }
 }

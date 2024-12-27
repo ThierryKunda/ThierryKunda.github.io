@@ -15,8 +15,9 @@ h2 {
 }
 
 main {
-    margin: 0px 18vw;
+    padding: 0px 24vw;
     margin-top: 80px;
+    margin-bottom: 100px;
 }
 
 a {
@@ -42,7 +43,7 @@ blockquote:hover {
 
 }
 
-blockquote > p {
+blockquote p {
     font-size: 14px;
 }
 
@@ -97,3 +98,25 @@ code:active {
     border-radius: 3px;
     font-size: 14px;
 }
+
+@media screen and (max-width: 768px) {
+    main {
+        padding: 0 10vw;
+    }
+  }
+
+@media screen and (max-width: 480px) {
+    main {
+        padding: 0 50px;
+    }
+
+    p, li {
+        font-size: 16px;
+    }
+  }
+
+@media screen and (max-width: 375px) {
+    p, li {
+        font-size: 12px;
+    }
+  }
