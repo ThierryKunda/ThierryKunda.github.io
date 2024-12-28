@@ -106,7 +106,11 @@ code:active {
 
 @media screen and (max-width: 480px) {
     main {
-        padding: 0 50px;
+        padding: 0 25px;
+    }    
+    
+    ul, ol {
+        padding-left: 10px;
     }
 
     p, li {
@@ -116,15 +120,8 @@ code:active {
 
 @media screen and (max-width: 375px) {
 
-    main {
-        padding: 0 25px;
-    }    
-
     p, li {
         font-size: 12px;
     }
 
-    ul, ol {
-        padding-left: 10px;
-    }
   }
