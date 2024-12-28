@@ -54,14 +54,23 @@ nav a {
 }
 
 footer {
-    box-sizing: border-box;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgb(225, 207, 236);
-    height: 120px;
+    padding: 50px 0;
+}
+
+footer > .separator {
+    width: 80%;
+    height: 0.2px;
+    margin-bottom: 50px;
+    background-color: black;
+}
+
+footer p {
     font-size: 12px;
+    margin: 5px;
 }
 
 footer a {
